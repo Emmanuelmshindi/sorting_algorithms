@@ -1,6 +1,5 @@
 #include "sort.h"
 
-
 /**
   * selection_sort - A function for selection sorting.
   * @array: The array to sort.
@@ -15,10 +14,10 @@ size_t i = 0, j = 0, min_pos = 0;
 if (array == NULL || size == 0)
 return;
 
-for (; i < size - 1; i++) /*Iterate through the list*/
+for (; i < size - 1; i++) 
 {
-min_pos = i; /*Current or first index is smallest*/
-for (j = i + 1; j < size; j++) /*Iterates through unsorted*/
+min_pos = i; 
+for (j = i + 1; j < size; j++) 
 {
 if (array[j] < array[min_pos]) 
 min_pos = j;
