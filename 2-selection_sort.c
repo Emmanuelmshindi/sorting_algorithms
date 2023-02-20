@@ -20,7 +20,8 @@ for (; i < size - 1; i++) /*Iterate through the list*/
 min_pos = i; /*Current or first index is smallest*/
 for (j = i + 1; j < size; j++) /*Iterates through unsorted*/
 {
-if (array[j] < array[min_pos]) min_pos = j;
+if (array[j] < array[min_pos]) 
+min_pos = j;
 }
 if (min_pos != i)
 {
